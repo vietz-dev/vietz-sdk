@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
-  "files": ["base.json"],
+  "files": [
+    "base.json"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietz-dev/vietz-sdk.git",
+    "directory": "packages/typescript-config"
   }
 }

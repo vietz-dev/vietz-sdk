@@ -10,7 +10,9 @@
       "default": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -26,5 +28,10 @@
     "@types/node": "^24.0.0",
     "typescript": "^5.9.0",
     "vitest": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietz-dev/vietz-sdk.git",
+    "directory": "packages/hono-effect"
   }
 }
